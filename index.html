@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SpireX Foundation — Learn, Build, Rise through practical learning, projects, mentorship and career development.">
+  <meta name="theme-color" content="#070b1a">
+  <title>SpireX Foundation | Learn • Build • Rise</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- =====================================================
+       MEMBER 2: GLOBAL HEADER / NAVIGATION
+       Member 3/4/5 should reuse this same navbar structure.
+       ===================================================== -->
+  <header class="site-header" id="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="SpireX Foundation home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="22" height="22" fill="none">
+            <path d="M16 3 L26 27 L16 21 L6 27 Z" fill="url(#brandGradient)"/>
+            <path d="M16 3 L16 21" stroke="#fff" stroke-opacity=".55" stroke-width="1.4"/>
+            <defs>
+              <linearGradient id="brandGradient" x1="6" y1="3" x2="26" y2="27" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#fff"/>
+                <stop offset="1" stop-color="#c7d2fe"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </span>
+        <span class="brand-text">Spire<span class="brand-x">X</span> <span class="brand-sub">Foundation</span></span>
+      </a>
+
+      <nav class="main-nav" id="main-nav" aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="about.html">About</a></li>
+          <li><a class="nav-link" href="internships.html">Internships</a></li>
+          <li><a class="nav-link" href="programs.html">Programs</a></li>
+          <li><a class="nav-link" href="projects.html">Projects</a></li>
+          <li><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <a class="btn btn-primary nav-cta" href="internships.html">Join Now <span class="arrow">→</span></a>
+      </nav>
+
+      <button class="nav-toggle" id="nav-toggle" type="button"
+              aria-label="Open menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- =====================================================
+         MEMBER 2: HERO
+         ===================================================== -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="grid-bg"></div>
+        <div class="orb orb-one"></div>
+        <div class="orb orb-two"></div>
+      </div>
+
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow reveal reveal-left">
+            <span class="status-dot"></span>
+            SpireX Foundation
+          </p>
+
+          <h1 id="hero-title" class="hero-title reveal reveal-left">
+            Learn <span>•</span> Build <span>•</span> <strong>Rise</strong>
+          </h1>
+
+          <p class="hero-lead reveal reveal-left">
+            Turn technology knowledge into practical skills through real-world projects,
+            mentorship and career-focused learning.
+          </p>
+
+          <div class="btn-row reveal reveal-left">
+            <a class="btn btn-primary btn-lg" href="internships.html">
+              Explore Internships <span class="arrow">→</span>
+            </a>
+            <a class="btn btn-ghost btn-lg" href="programs.html">
+              Explore Programs
+            </a>
+          </div>
+
+          <div class="trust-row reveal reveal-left" aria-label="SpireX focus areas">
+            <span>Practical Skills</span>
+            <span>Real Projects</span>
+            <span>Mentorship</span>
+            <span>Career Growth</span>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal reveal-right" aria-label="SpireX learning path illustration">
+          <div class="visual-glow"></div>
+
+          <div class="code-card" id="code-card">
+            <div class="code-top">
+              <div class="window-dots">
+                <i></i><i></i><i></i>
+              </div>
+              <span>spirex-path.js</span>
+              <span class="code-live">● LIVE</span>
+            </div>
+
+            <pre><code><span class="line-no">01</span> <span class="key">const</span> <span class="var">student</span> = {
+<span class="line-no">02</span>   <span class="prop">learn</span>: <span class="str">"real skills"</span>,
+<span class="line-no">03</span>   <span class="prop">build</span>: <span class="str">"real projects"</span>,
+<span class="line-no">04</span>   <span class="prop">grow</span>: <span class="str">"with mentors"</span>,
+<span class="line-no">05</span>   <span class="prop">career</span>: <span class="str">"ready"</span>
+<span class="line-no">06</span> };</code></pre>
+
+            <div class="progress-line"><span></span></div>
+            <div class="code-footer">
+              <span>learning-path</span>
+              <span>100% practical</span>
+            </div>
+          </div>
+
+          <div class="float-card float-one">
+            <span class="float-icon">✦</span>
+            <div><b>Project Build</b><small>Hands-on practice</small></div>
+          </div>
+
+          <div class="float-card float-two">
+            <span class="float-icon">◎</span>
+            <div><b>Mentor Review</b><small>Guided feedback</small></div>
+          </div>
+
+          <div class="float-card float-three">
+            <span class="float-icon">↗</span>
+            <div><b>Career Ready</b><small>Portfolio focused</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         MEMBER 2: WHY SPIREX / COMPANY HIGHLIGHTS
+         ===================================================== -->
+    <section class="section" id="why-spirex" aria-labelledby="why-title">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-kicker">Why SpireX</span>
+          <h2 id="why-title" class="section-title">
+            From classroom knowledge to <span class="grad">industry reality.</span>
+          </h2>
+          <p class="section-sub">
+            A practical approach that connects learning with real technology workflows.
+          </p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-card reveal" style="--delay:0ms">
+            <div class="feature-head">
+              <span class="feature-icon">&lt;/&gt;</span>
+              <span class="feature-number">01</span>
+            </div>
+            <h3>Project-Based Learning</h3>
+            <p>Build practical applications and turn concepts into usable skills.</p>
+            <span class="feature-link">Build & learn <b>↗</b></span>
+          </article>
+
+          <article class="feature-card reveal" style="--delay:90ms">
+            <div class="feature-head">
+              <span class="feature-icon">⚙</span>
+              <span class="feature-number">02</span>
+            </div>
+            <h3>Real-Time Experience</h3>
+            <p>Understand practical workflows and how development works in a professional environment.</p>
+            <span class="feature-link">Experience <b>↗</b></span>
+          </article>
+
+          <article class="feature-card reveal" style="--delay:180ms">
+            <div class="feature-head">
+              <span class="feature-icon">◎</span>
+              <span class="feature-number">03</span>
+            </div>
+            <h3>Expert Mentorship</h3>
+            <p>Get guidance and feedback while working through technical challenges.</p>
+            <span class="feature-link">Get guidance <b>↗</b></span>
+          </article>
+
+          <article class="feature-card reveal" style="--delay:270ms">
+            <div class="feature-head">
+              <span class="feature-icon">▲</span>
+              <span class="feature-number">04</span>
+            </div>
+            <h3>Career Development</h3>
+            <p>Improve your portfolio, resume and professional readiness alongside technical skills.</p>
+            <span class="feature-link">Grow forward <b>↗</b></span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =====================================================
+         MEMBER 2: CTA / COMMON CALL-TO-ACTION COMPONENT
+         ===================================================== -->
+    <section class="section cta-section" aria-labelledby="cta-title">
+      <div class="container">
+        <div class="cta-box reveal">
+          <div class="cta-pattern" aria-hidden="true"></div>
+          <div class="cta-content">
+            <span class="section-kicker">Start Your Journey</span>
+            <h2 id="cta-title">Ready to build your future?</h2>
+            <p>
+              Start learning, work on real projects and take the next step
+              towards your professional journey.
+            </p>
+            <div class="btn-row center">
+              <a class="btn btn-light btn-lg" href="internships.html">
+                Apply for Internship <span class="arrow">→</span>
+              </a>
+              <a class="btn btn-outline btn-lg" href="contact.html">Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =====================================================
+       MEMBER 2: GLOBAL FOOTER
+       ===================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-about">
+        <a class="brand" href="index.html" aria-label="SpireX Foundation home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 32 32" width="22" height="22" fill="none">
+              <path d="M16 3 L26 27 L16 21 L6 27 Z" fill="#fff"/>
+            </svg>
+          </span>
+          <span class="brand-text">Spire<span class="brand-x">X</span> <span class="brand-sub">Foundation</span></span>
+        </a>
+        <p class="footer-text">
+          Practical learning, real-world projects, mentorship and career development for students.
+        </p>
+        <a class="footer-mail" href="mailto:contact.spirexfoundation@gmail.com">
+          contact.spirexfoundation@gmail.com
+        </a>
+      </div>
+
+      <div class="footer-column">
+        <h3>Explore</h3>
+        <a href="about.html">About</a>
+        <a href="internships.html">Internships</a>
+        <a href="programs.html">Programs</a>
+      </div>
+
+      <div class="footer-column">
+        <h3>Discover</h3>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <a href="internships.html">Join SpireX</a>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© 2026 SpireX Foundation. All rights reserved.</p>
+      <p>Learn • Build • Rise</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
